@@ -18,6 +18,13 @@ Labels={
     2:'NORMAL'
     }
 
+ABOUT_TEXT='''
+Absolute Breast Cancer Detector (ABCD)
+Early detection and explanation in detecting breast cancer from USG images.
+
+Tamojit Das      (IEM, Kolkata)
+Sayantani Ghosh  (CU, Kolkata)
+'''
 
 def transform_img_fn(path_list):
     out = []

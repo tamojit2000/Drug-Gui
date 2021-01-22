@@ -37,6 +37,14 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>a.ico</normaloff>a.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 0, 127);
+</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -59,7 +67,7 @@ border-radius: 20;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>a.jpg</pixmap>
+     <pixmap>a.jpeg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -90,6 +98,9 @@ border-radius: 20;</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>a.jpeg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -136,7 +147,7 @@ color: rgb(255, 0, 127);</string>
      <rect>
       <x>70</x>
       <y>20</y>
-      <width>191</width>
+      <width>441</width>
       <height>61</height>
      </rect>
     </property>
@@ -155,7 +166,7 @@ color: rgb(255, 0, 127);</string>
 color: rgb(255, 0, 127);</string>
     </property>
     <property name="text">
-     <string>Cancer Detector</string>
+     <string>Absolute Breast Cancer Detector(ABCD)</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
@@ -181,8 +192,8 @@ color: rgb(255, 0, 127);</string>
      <rect>
       <x>580</x>
       <y>340</y>
-      <width>47</width>
-      <height>13</height>
+      <width>141</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="styleSheet">

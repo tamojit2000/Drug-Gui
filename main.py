@@ -25,16 +25,16 @@ class Ui(QtWidgets.QMainWindow):
     def Predict(self):
         print('predict')
         print('File Path:',self.PATH)
-        self.label_4.setText('Processing')
         prediction=get_prediction(self.PATH)
         print('Prediction:',prediction)
         self.label_4.setText(prediction)
+        
 
     def About(self):
         print('About')
         msg = QtWidgets.QMessageBox()
         msg.setWindowTitle("About")
-        msg.setText("About Text.")
+        msg.setText(ABOUT_TEXT)
         msg.setIcon(QtWidgets.QMessageBox.Information)
         msg.exec_()
 
