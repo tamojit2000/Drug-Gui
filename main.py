@@ -11,6 +11,7 @@ class Ui(QtWidgets.QMainWindow):
         self.pushButton.clicked.connect(self.browse)
         self.pushButton_2.clicked.connect(self.Predict)
         self.pushButton_3.clicked.connect(self.About)
+        self.pushButton_4.clicked.connect(self.Explain)
         self.show()
 
     def browse(self):
@@ -21,6 +22,7 @@ class Ui(QtWidgets.QMainWindow):
         self.PATH=filename
         print('File Path:',self.PATH)
         self.label_4.setText('Result')
+        self.label_2.setPixmap(QtGui.QPixmap('a.jpeg'))
 
     def Predict(self):
         print('predict')
@@ -29,6 +31,9 @@ class Ui(QtWidgets.QMainWindow):
         print('Prediction:',prediction)
         self.label_4.setText(prediction)
         
+    def Explain(self):
+        print('Explain')
+        self.label_2.setPixmap(QtGui.QPixmap('download.png'))
 
     def About(self):
         print('About')

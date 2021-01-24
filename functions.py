@@ -13,7 +13,7 @@ print('Modules loaded')
 ## NORMAL 2
 
 Labels={
-    0:'BEGIGN',
+    0:'BENIGN',
     1:'MALIGNANT',
     2:'NORMAL'
     }
